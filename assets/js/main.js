@@ -4,4 +4,10 @@ function get_products() {
     console.log(response.data);
   });
 }
+function getProductById(id) {
+  axios.get(`/route.api.php/show.product?id=${id}`).then((response) => {
+    console.log(response.data);
+  })
+}
 get_products();
+// getProductById(1);

@@ -1,5 +1,5 @@
 <?php
-    $url_path = $_SERVER['REQUEST_URI'];
+    $url_path = parse_url($_SERVER['REQUEST_URI'])['path'];
     // echo $url_path;
     $router = [
         '/route.api.php/get.product' => './api/Controller.get.product.php',

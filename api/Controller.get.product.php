@@ -1,6 +1,6 @@
 <?php
-// RESTs = Create, READ, update, delete, show
-// CRUD = Create, READ, update, delete, 
+// RESTs = Create, READ, update, delete, show = get by id
+// CRUDs = Create, READ, update, delete, 
 // build api get products
 
 // get file name
